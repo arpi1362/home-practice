@@ -1,0 +1,272 @@
+/*0D0D09
+090B0D
+0D0000
+0D0D09
+0D0909*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    min-height: 100%;
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: 50px;
+}
+
+footer, .push {
+    height: 50px;
+}
+
+body {
+    background-color: #000000;
+    width: 100%;
+    color: #ffffff;
+}
+
+.home {
+    background-color: #000000;
+    width: 100%;
+    background-image: url("../images/center.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home main {
+    height: 400px
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-container-home {
+    font-family: Arial;
+    font-weight: bold;
+    background: #F50000;
+    width: 560px;
+    margin: 0 auto;
+}
+
+.nav-container-home ul {
+    display: inline;
+    margin: 5;
+    padding: 5;
+    list-style: none;
+    border: solid 1px #9EDBCE;
+}
+
+.nav-container-home ul li {
+    display: inline;
+    margin: 0;
+}
+
+.nav-container-home ul li a {
+    color: red;
+    background: #9EDBCE;
+    margin: 0;
+    padding: 5px 7px 5px 7px;
+    text-decoration: none;
+}
+
+.nav-container-home ul li a:hover {
+    background: #9EDBCE;
+    border-bottom: solid 12px #13E876;
+}
+
+.home h1, .home h2 {
+    color: #fff;
+}
+
+
+/* nav on all pages besides home */
+
+.nav-container {
+    font-family: Arial;
+    font-weight: bold;
+    background: #F50000;
+    width: 550px;
+    margin: 110px auto;
+    float: left;
+}
+
+.nav-container ul {
+    display: inline;
+    margin: 5;
+    padding: 5;
+    list-style: none;
+    border: solid 1px #9EDBCE;
+}
+
+.nav-container ul li {
+    display: inline;
+    margin: 0;
+}
+
+.nav-container ul li a {
+    color: red;
+    background: #9EDBCE;
+    margin: 0;
+    padding: 5px 7px 5px 7px;
+    text-decoration: none;
+}
+
+.nav-container ul li a:hover {
+    background: #9EDBCE;
+    border-bottom: solid 12px #13E876;
+}
+
+.home header {
+    text-align: center;
+}
+
+.logo {
+    float: right;
+    border: 1px solid #fff;
+    margin-top: 50px;
+}
+
+.services {
+    /*position: absolute;
+    top: 50px;
+    left: 200px;
+    right: 500px;
+    left: 400px;*/
+    width: 30%;
+    margin: auto;
+    /*border: solid white 1px;*/
+}
+
+.services h1 {
+    color: red;
+    top: 14px;
+    left: 18px;
+    right: 48px;
+    left: 38px;
+    position: relative;
+    font-family: 'Cantata One', serif;
+    font-size: 40px;
+}
+
+
+/* clearfix for parent of floats */
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.services h2 {
+    color: red;
+    top: 5px;
+    left: 20px;
+    right: 50px;
+    left: 40px;
+    position: relative;
+    font-family: 'Cantata One', serif;
+    font-size: 40px;
+}
+
+.services h3 {
+    color: red;
+    top: 4px;
+    left: 20px;
+    right: 50px;
+    left: 40px;
+    position: relative;
+    font-size: 40px;
+}
+
+.resumecontainer h1, h4 {
+    position: relative;
+    top: 50px;
+    left: 20px;
+    right: 40px;
+    left: 100px;
+}
+
+.resumecontainer h2 {
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 20;
+    right: 20px;
+    left: 80px;
+}
+
+.resumecontainer h3 {
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 20;
+    right: 20px;
+    left: 80px;
+}
+
+.resumecontainer p {
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    right: 50px;
+    left: 40px;
+}
+
+.services h1 {
+    color: red;
+    top: 14px;
+    left: 18px;
+    right: 48px;
+    left: 38px;
+    position: relative;
+    font-family: 'Cantata One', serif;
+    font-size: 40px;
+}
+
+.services h2 {
+    color: red;
+    top: 5px;
+    left: 20px;
+    right: 50px;
+    left: 40px;
+    position: relative;
+    font-family: 'Cantata One', serif;
+    font-size: 40px;
+}
+
+.services h3 {
+    color: red;
+    top: 4px;
+    left: 20px;
+    right: 50px;
+    left: 40px;
+    position: relative;
+    font-size: 40px;
+}
+
+.portfoliocontainer {
+    position: relative;
+    top: 50px;
+    left: 20px;
+    right: 50px;
+    left: 40px;
+}
+
+.portfoliocontainer h1 {
+    color: red;
+    top: 5px;
+    left: 20px;
+    right: 50px;
+    left: 40px;
+    position: relative;
+    font-family: 'Cantata One', serif;
+    font-size: 40px;
+}
+
+footer {
+    color: #ECEEFF;
+}
