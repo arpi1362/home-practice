@@ -4,6 +4,27 @@
 0D0D09
 0D0909*/
 
+
+/*FF530D
+FF530D
+FF0000
+E80CE6
+7D0DFF*/
+
+
+/*9EDBCE
+320DFF
+FF0000
+E8A50C
+4FFF0D*/
+
+
+/*FFFFFF
+FF0D0D
+FF0000
+FF0000
+FF0D0D*/
+
 html, body {
     height: 100%;
     margin: 0;
@@ -141,7 +162,7 @@ body {
 }
 
 .services h1 {
-    color: red;
+    color: FF0000;
     top: 14px;
     left: 18px;
     right: 48px;
@@ -161,7 +182,7 @@ body {
 }
 
 .services h2 {
-    color: red;
+    color: FF0000;
     top: 5px;
     left: 20px;
     right: 50px;
@@ -172,7 +193,7 @@ body {
 }
 
 .services h3 {
-    color: red;
+    color: FF0000;
     top: 4px;
     left: 20px;
     right: 50px;
@@ -217,7 +238,7 @@ body {
 }
 
 .services h1 {
-    color: red;
+    color: FF0000;
     top: 14px;
     left: 18px;
     right: 48px;
@@ -228,7 +249,7 @@ body {
 }
 
 .services h2 {
-    color: red;
+    color: FF0000;
     top: 5px;
     left: 20px;
     right: 50px;
@@ -257,7 +278,7 @@ body {
 }
 
 .portfoliocontainer h1 {
-    color: red;
+    color: FF0000;
     top: 5px;
     left: 20px;
     right: 50px;
